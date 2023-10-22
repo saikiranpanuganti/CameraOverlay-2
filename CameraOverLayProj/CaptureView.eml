@@ -1,0 +1,432 @@
+MIME-Version: 1.0
+Date: Fri, 10 Feb 2023 15:53:49 +0530
+Message-ID: <CAOTjhxm8FoUT_ZEnEUy3+ryYaWj1KkUdqYKfLOnmtjWfd8B5DA@mail.gmail.com>
+Subject: CaptureView
+From: Thatavarthi Ashakiran <kiran.kk789@gmail.com>
+To: Thatavarthi Ashakiran <kiran.kk789@gmail.com>
+Content-Type: multipart/alternative; boundary="00000000000074685a05f455e5ae"
+
+--00000000000074685a05f455e5ae
+Content-Type: text/plain; charset="UTF-8"
+
+*import* Foundation
+
+*import* UIKit
+
+
+*class* CaptureView: UIView {
+
+
+
+    *override* *func* draw(_ rect: CGRect) {
+
+        *let* path = UIBezierPath(roundedRect: rect, byRoundingCorners: [.
+allCorners], cornerRadii: CGSize(width: 20, height: 20))
+
+        UIColor.white.withAlphaComponent(0.2).setFill()
+
+        path.fill()
+
+    }
+
+
+
+//    private var size = UIScreen.main.bounds.size
+
+//
+
+//    override init(frame: CGRect) {
+
+//        super.init(frame: frame)
+
+//
+
+//        self.setupView()
+
+//    }
+
+//
+
+//    required init?(coder: NSCoder) {
+
+//        super.init(coder: coder)
+
+//
+
+//        self.setupView()
+
+//    }
+
+//
+
+//    func setupView() {
+
+//        let path: UIBezierPath = self.getPath()
+
+//
+
+//        let shape = CAShapeLayer()
+
+//        shape.path = path.cgPath
+
+//        shape.lineWidth = 2.0
+
+//        shape.strokeColor = UIColor.white.cgColor
+
+//        shape.fillColor = UIColor.white.cgColor
+
+//
+
+//        self.layer.addSublayer(shape)
+
+//    }
+
+
+
+//    func getPath() -> UIBezierPath {
+
+//        let path: UIBezierPath = UIBezierPath()
+
+//
+
+//        path.move(to: CGPoint(x: 0, y: 0))
+
+//        path.addLine(to: CGPoint(x: size.width * 0.8, y: 0))
+
+//        path.addArc(withCenter: CGPoint(x: size.width * 0.8, y: 20),
+radius: 20, startAngle: CGFloat(Double.pi * 3 / 2), endAngle: 0, clockwise:
+true)
+
+//        path.addLine(to: CGPoint(x: size.width * 0.85, y: size.width / 2))
+
+//        path.addArc(withCenter: CGPoint(x: (size.width * 0.8) - 0.5, y:
+size.width / 2), radius: 20, startAngle: 0, endAngle: CGFloat(Double.pi /
+2), clockwise: true)
+
+//        path.addLine(to: CGPoint(x: size.width * 0.1, y: (size.width / 2)
++ 20))
+
+//        path.addArc(withCenter: CGPoint(x: 0, y: size.width / 2), radius:
+20, startAngle: CGFloat(Double.pi / 2), endAngle: CGFloat(Double.pi),
+clockwise: true)
+
+//        path.addLine(to: CGPoint(x: -20, y: size.width * 0.05))
+
+//        path.addArc(withCenter: CGPoint(x: 0, y: 20), radius: 20,
+startAngle: CGFloat(Double.pi), endAngle: CGFloat(Double.pi * 3 / 2),
+clockwise: true)
+
+//
+
+//        return path
+
+//    }
+
+}
+
+--00000000000074685a05f455e5ae
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+
+
+
+
+
+<p class=3D"gmail-p1" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36)"><span class=3D"gmail-s1" style=3D"color:rgb(252,95,163)"><b>import=
+</b></span> Foundation</p>
+<p class=3D"gmail-p1" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36)"><span class=3D"gmail-s1" style=3D"color:rgb(252,95,163)"><b>import=
+</b></span> UIKit</p>
+<p class=3D"gmail-p2" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36);min-height:18px"><br></p>
+<p class=3D"gmail-p3" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(93,216,255);background-color:rgb(31,31,36)=
+"><span class=3D"gmail-s1" style=3D"color:rgb(252,95,163)"><b>class</b></sp=
+an><span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)"> </span>=
+CaptureView<span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)">=
+: </span><span class=3D"gmail-s3" style=3D"color:rgb(208,168,255)">UIView</=
+span><span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)"> {</sp=
+an></p>
+<p class=3D"gmail-p2" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36);min-height:18px"><span class=3D"gmail-Apple-converted-space">=C2=A0=
+=C2=A0 =C2=A0</span></p>
+<p class=3D"gmail-p1" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36)"><span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span><=
+span class=3D"gmail-s1" style=3D"color:rgb(252,95,163)"><b>override</b></sp=
+an> <span class=3D"gmail-s1" style=3D"color:rgb(252,95,163)"><b>func</b></s=
+pan> <span class=3D"gmail-s4" style=3D"color:rgb(65,161,192)">draw</span>(<=
+span class=3D"gmail-s4" style=3D"color:rgb(65,161,192)">_</span> rect: <spa=
+n class=3D"gmail-s3" style=3D"color:rgb(208,168,255)">CGRect</span>) {</p>
+<p class=3D"gmail-p4" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(161,103,230);background-color:rgb(31,31,36=
+)"><span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)"><span cl=
+ass=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span></sp=
+an><span class=3D"gmail-s1" style=3D"color:rgb(252,95,163)"><b>let</b></spa=
+n><span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)"> path =3D=
+ </span><span class=3D"gmail-s3" style=3D"color:rgb(208,168,255)">UIBezierP=
+ath</span><span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)">(=
+</span>roundedRect<span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,=
+0.85)">: rect, </span>byRoundingCorners<span class=3D"gmail-s2" style=3D"co=
+lor:rgba(255,255,255,0.85)">: [.</span>allCorners<span class=3D"gmail-s2" s=
+tyle=3D"color:rgba(255,255,255,0.85)">], </span>cornerRadii<span class=3D"g=
+mail-s2" style=3D"color:rgba(255,255,255,0.85)">: </span><span class=3D"gma=
+il-s3" style=3D"color:rgb(208,168,255)">CGSize</span><span class=3D"gmail-s=
+2" style=3D"color:rgba(255,255,255,0.85)">(</span>width<span class=3D"gmail=
+-s2" style=3D"color:rgba(255,255,255,0.85)">: </span><span class=3D"gmail-s=
+5" style=3D"color:rgb(208,191,105)">20</span><span class=3D"gmail-s2" style=
+=3D"color:rgba(255,255,255,0.85)">, </span>height<span class=3D"gmail-s2" s=
+tyle=3D"color:rgba(255,255,255,0.85)">: </span><span class=3D"gmail-s5" sty=
+le=3D"color:rgb(208,191,105)">20</span><span class=3D"gmail-s2" style=3D"co=
+lor:rgba(255,255,255,0.85)">))</span></p>
+<p class=3D"gmail-p4" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(161,103,230);background-color:rgb(31,31,36=
+)"><span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)"><span cl=
+ass=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span></sp=
+an><span class=3D"gmail-s3" style=3D"color:rgb(208,168,255)">UIColor</span>=
+<span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)">.</span>whi=
+te<span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)">.</span>w=
+ithAlphaComponent<span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0=
+.85)">(</span><span class=3D"gmail-s5" style=3D"color:rgb(208,191,105)">0.2=
+</span><span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)">).</=
+span>setFill<span class=3D"gmail-s2" style=3D"color:rgba(255,255,255,0.85)"=
+>()</span></p>
+<p class=3D"gmail-p1" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36)"><span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 </span>path.<span class=3D"gmail-s6" style=3D"color:rgb(161,103,230)=
+">fill</span>()</p>
+<p class=3D"gmail-p1" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36)"><span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>}=
+</p>
+<p class=3D"gmail-p2" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36);min-height:18px"><span class=3D"gmail-Apple-converted-space">=C2=A0=
+=C2=A0 =C2=A0</span></p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>priva=
+te var size =3D UIScreen.main.bounds.size</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>overr=
+ide init(frame: CGRect) {</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>super.init(frame: frame)</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>self.setupView()</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>}</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>requi=
+red init?(coder: NSCoder) {</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>super.init(coder: coder)</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>self.setupView()</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>}</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>func =
+setupView() {</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>let path: UIBezierPath =3D self.getPath()</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>let shape =3D CAShapeLayer()</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>shape.path =3D path.cgPath</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>shape.lineWidth =3D 2.0</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>shape.strokeColor =3D UIColor.white.cgColor</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>shape.fillColor =3D UIColor.white.cgColor</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>self.layer.addSublayer(shape)</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>}</p>
+<p class=3D"gmail-p2" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36);min-height:18px"><span class=3D"gmail-Apple-converted-space">=C2=A0=
+=C2=A0 =C2=A0</span></p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>func =
+getPath() -&gt; UIBezierPath {</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>let path: UIBezierPath =3D UIBezierPath()</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.move(to: CGPoint(x: 0, y: 0))</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addLine(to: CGPoint(x: size.width * 0.8, y: 0))</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addArc(withCenter: CGPoint(x: size.width * 0.8, y: 20), rad=
+ius: 20, startAngle: CGFloat(Double.pi * 3 / 2), endAngle: 0, clockwise: tr=
+ue)</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addLine(to: CGPoint(x: size.width * 0.85, y: size.width / 2=
+))</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addArc(withCenter: CGPoint(x: (size.width * 0.8) - 0.5, y: =
+size.width / 2), radius: 20, startAngle: 0, endAngle: CGFloat(Double.pi / 2=
+), clockwise: true)</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addLine(to: CGPoint(x: size.width * 0.1, y: (size.width / 2=
+) + 20))</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addArc(withCenter: CGPoint(x: 0, y: size.width / 2), radius=
+: 20, startAngle: CGFloat(Double.pi / 2), endAngle: CGFloat(Double.pi), clo=
+ckwise: true)</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addLine(to: CGPoint(x: -20, y: size.width * 0.05))</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>path.addArc(withCenter: CGPoint(x: 0, y: 20), radius: 20, startA=
+ngle: CGFloat(Double.pi), endAngle: CGFloat(Double.pi * 3 / 2), clockwise: =
+true)</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 </span>return path</p>
+<p class=3D"gmail-p5" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgb(108,121,134);background-color:rgb(31,31,36=
+)">//<span class=3D"gmail-Apple-converted-space">=C2=A0 =C2=A0 </span>}</p>
+<p class=3D"gmail-p1" style=3D"margin:0px;font-variant-numeric:normal;font-=
+variant-east-asian:normal;font-stretch:normal;font-size:15px;line-height:no=
+rmal;font-family:Menlo;color:rgba(255,255,255,0.85);background-color:rgb(31=
+,31,36)">}</p></div>
+
+--00000000000074685a05f455e5ae--
